@@ -6,12 +6,10 @@ public class Personel {
     String pozisyon;
 
 
+    void bilgileriYazdir() {
 
-    void  bilgileriYazdir() {
-
-        System.out.println(id+")" + ad +" " + soyad + " (" + pozisyon + ")");
+        System.out.println(id + ")" + ad + " " + soyad + " (" + pozisyon + ")");
 
     }
-
 
 }
